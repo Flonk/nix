@@ -1,0 +1,25 @@
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+	algorithm = histogram
+
+[credential]
+	helper = store
+
+[rerere]
+    enabled = true
+    
+[user]
+	email = florian.schindler@andamp.io
+	name = Florian Schindler
+
+[push]
+	autoSetupRemote = true
+    
+[fetch]
+	prune = true
+
+[pull]
+	rebase = true
